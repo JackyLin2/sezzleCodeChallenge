@@ -5,7 +5,10 @@ class clearButton extends Component {
 render(){
   return (
     <div 
-    className="clear-btn">
+        className="clear-btn"
+        onClick={ () => this.props.handleClear()}
+        >
+
         {this.props.children}
     </div>
   );
