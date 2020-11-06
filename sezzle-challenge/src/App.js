@@ -3,6 +3,10 @@ import './App.css';
 import Button from './components/button'
 import Input from './components/input'
 import ClearButton from './components/clearButton.js'
+import io from 'socket.io-client';
+
+
+
 
 class App extends Component{
   constructor(props){
@@ -32,7 +36,7 @@ class App extends Component{
   }
 
   clearInput = () => {
-    this.setState({input: "0"})
+    this.setState({input: ""})
   }
   
   add = () => {
