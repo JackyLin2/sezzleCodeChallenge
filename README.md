@@ -17,6 +17,8 @@ Results should remain between sessions. Only show the last 10 calculations desce
 How to start: 
 
 gitclone: git@github.com:JackyLin2/sezzleCodeChallenge.git
+
+
 run npm start 
 
 -----------------------------------------------------------------
